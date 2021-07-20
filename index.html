@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hot Picture</title>
+</head>
+<body>
+    <a href="#" id="mybtn">click to download</a>
+    <div id="myid">
+    
+    </div>
+    <script>
+        let myid = document.getElementById('myid');
+        let mybtn = document.getElementById("mybtn");
+        function Opn (){
+            // let myid = document.getElementById('myid');
+            // myid.style.display = "block";
+            var nwin = window.open("", "_blank", );
+            nwin.document.write("You Are Maha chutiya Bhosdi ke")
+        }
+
+        mybtn.addEventListener('click', Opn);
+    </script>
+</body>
+</html>
